@@ -38,3 +38,23 @@ myArray[0]=13;
 console.log(myArray);
 myArray.pop(2);
 console.log(myArray);
+
+
+   
+var outerWear= "T-shirt";
+function myOutfit(){
+var outerWear = "pants";
+return outerWear;
+
+}
+console.log(myOutfit());
+
+function sub(a){
+return a/10;
+}
+console.log(sub(8));
+
+function timesblah (blah){
+    return (blah*20/2);
+}
+console.log(timesblah(10));
