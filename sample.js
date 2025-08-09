@@ -88,10 +88,10 @@ console.log(Equalizer(22));
 
 
 function Comparing (x,y){
-    if (x<3, y<3){
+    if (x<3 && y<3){
         return "Happy!";
     }
-    if (x>3, y>3){
+    if (x>3 && y>3){
         return "oh NO!";
     }
     else {
@@ -100,3 +100,15 @@ function Comparing (x,y){
 }
 console.log((Comparing(3)));
 
+function dunno(val){
+    if (val>20){
+        return "too much!";
+    } else if (val<5){
+        return "too small";
+    }
+    else {
+        return "just right!";
+    }
+}
+
+console.log (dunno(10));
