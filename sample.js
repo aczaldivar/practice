@@ -58,3 +58,45 @@ function timesblah (blah){
     return (blah*20/2);
 }
 console.log(timesblah(10));
+
+var item=400; 
+function OverView(item){
+    return item;
+
+}
+console.log ((item));
+
+
+
+function trueorfalse (ThatisTrue){
+    if (ThatisTrue){
+        return "Yes of Course";
+    }
+   return "No way go away";
+}
+
+console.log (trueorfalse(false));
+
+function Equalizer(variable){
+    if (variable==30){
+        return "Equal";
+    }
+    return "not equal"
+}
+console.log(Equalizer(22));
+
+
+
+function Comparing (x,y){
+    if (x<3, y<3){
+        return "Happy!";
+    }
+    if (x>3, y>3){
+        return "oh NO!";
+    }
+    else {
+        return "whatever!";
+    }
+}
+console.log((Comparing(3)));
+
